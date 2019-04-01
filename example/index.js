@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { useNotification } from "../src";
+import { useCustomNotification } from "../src";
 
 const App = () => {
-  const { notify, notificationManager } = useNotification();
+  const { notify, notificationManager } = useCustomNotification();
 
   return (
     <div>
-      <h1>use-notification</h1>
+      <h1>use-custom-notification</h1>
 
       <button
         onClick={() =>

@@ -61,7 +61,7 @@ const Notification: React.FC<Notification> = props => {
   );
 };
 
-export const useNotification = () => {
+export const useCustomNotification = () => {
   const [notifications, setNotifications] = useState<Notification[]>([]);
 
   const notify = (notification: {
