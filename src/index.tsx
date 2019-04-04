@@ -13,13 +13,14 @@ type WrapperType = {
 };
 const Wrapper = styled.div<WrapperType>`
   height: 100px;
-  width: 200px;
+  width: 240px;
   margin: 16px;
+  padding: 8px 16px;
   background-color: ${p =>
     p.type === "success"
-      ? "#00c853"
+      ? "#cbf4d4"
       : p.type === "error"
-      ? "#ff5252"
+      ? "#f4cbcb"
       : "#f5f5f5"};
 
   transition: all 0.5s ease-out;
